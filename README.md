@@ -20,6 +20,7 @@ Monthly Trends: Line chart for loan applications, funded amounts, and received a
 
 **Key Metrics for Loan Quality:-**
 Good Loans - Loans fully paid or currently active.
+
 Bad Loans - Loans charged off.
 
 **SQL Queries:-**
