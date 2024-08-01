@@ -1,21 +1,28 @@
 # LoanVista
 ### Project: LoanVista offers an in-depth analysis of bank lending through Power BI dashboards. It tracks loan applications, funded amounts, repayments, interest rates, and borrower DTI. Key SQL queries support metrics for loan performance, distinguishing between good and bad loans.
 
-Dashboard :-
+**Dashboard :-**
+
 ![Screenshot 2024-08-01 214422](https://github.com/user-attachments/assets/7a3bd4fd-6e7b-4725-8bc0-8b64d3379c22)
+
 Total Loan Applications: Count of applications received.
+
 Total Funded Amount: Sum of disbursed loan amounts.
+
 Total Amount Received: Sum of repayments from borrowers.
+
 Average Interest Rate: Average interest rate of issued loans.
+
 Average Debt-to-Income Ratio (DTI): Average DTI of borrowers.
+
 Monthly Trends: Line chart for loan applications, funded amounts, and received amounts over time.
 
 
-Key Metrics for Loan Quality:-
+**Key Metrics for Loan Quality:-**
 Good Loans - Loans fully paid or currently active.
 Bad Loans - Loans charged off.
 
-SQL Queries:-
+**SQL Queries:-**
 The project is powered by MSSQL queries to extract and calculate essential metrics:
 
 Total Loan Applications: SELECT COUNT(id) AS Total_Applications FROM bank_loan_data
